@@ -121,7 +121,7 @@ epistemic-drift-eval/
 ## Installation
 
 ```bash
-git clone https://github.com/your-username/epistemic-drift-eval.git
+git clone https://github.com/nicolastorresr/epistemic-drift-eval.git
 cd epistemic-drift-eval
 pip install -e .
 ```
