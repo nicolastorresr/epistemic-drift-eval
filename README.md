@@ -2,7 +2,7 @@
 
 > **Measuring Conversational Epistemic Drift in Aligned Large Language Models**
 
-A research framework for evaluating the tension between conversational compliance and epistemic stability in aligned LLMs. Implements the evaluation methodology from *"When Language Models Prefer Agreement Over Accuracy"* (Torres, 2025).
+A research framework for evaluating the tension between conversational compliance and epistemic stability in aligned LLMs.
 
 ---
 
