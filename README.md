@@ -272,21 +272,6 @@ Pressure prompts:
 
 ---
 
-## Reproducing Paper Results
-
-```bash
-# Download and prepare all benchmarks
-python scripts/download_benchmarks.py
-
-# Run full evaluation across all models
-python experiments/run_full_eval.py --config configs/paper_replication.yaml
-
-# Generate analysis notebooks
-jupyter nbconvert --execute notebooks/02_results_analysis.ipynb
-```
-
----
-
 ## Adding New Models
 
 See [`docs/adding_models.md`](docs/adding_models.md). In short, implement the `BaseModelClient` interface in `src/utils/api_client.py`:
@@ -295,19 +280,6 @@ See [`docs/adding_models.md`](docs/adding_models.md). In short, implement the `B
 class MyModelClient(BaseModelClient):
     def generate(self, messages: list[dict], **kwargs) -> ModelResponse:
         ...
-```
-
----
-
-## Citation
-
-```bibtex
-@article{torres2025epistemic,
-  title={When Language Models Prefer Agreement Over Accuracy: Conversational Compliance and Epistemic Stability in Aligned LLMs},
-  author={Torres, Nicolás},
-  year={2025},
-  institution={Universidad Técnica Federico Santa María}
-}
 ```
 
 ---
